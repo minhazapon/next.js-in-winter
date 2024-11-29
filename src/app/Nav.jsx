@@ -29,7 +29,7 @@ const Nav = () => {
                       className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                       <li><Link href={'/about'} >about</Link></li>
                       <li><Link href={'/service'}>service</Link></li>
-                      <li><Link href={'/minhaz'}>minhazs</Link></li>
+                      <li><Link href={'/post'}>post</Link></li>
                     </ul>
                   </div>
                   <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -38,6 +38,7 @@ const Nav = () => {
                   <ul className="menu menu-horizontal px-1">
                     <li><Link href={'/about'} >about</Link></li>
                     <li><Link href={'/service'}>services</Link></li>
+                    <li><Link href={'/post'}>post</Link></li>
                  
                   </ul>
                 </div>
